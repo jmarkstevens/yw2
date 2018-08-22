@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native-elements",
+      "**/react-native-elements/**",
+      "**/react-native-vector-icons",
+      "**/react-native-vector-icons/**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-typescript-transformer",
+      "**/react-native-typescript-transformer/**",
+      "**/react-navigation",
+      "**/react-navigation/**",
+      "**/metro-bundler-config-yarn-workspaces",
+      "**/metro-bundler-config-yarn-workspaces/**"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}

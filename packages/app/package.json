@@ -1,0 +1,44 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "tslint -p \".\" -t stylish",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.5",
+    "apollo-client": "^2.3.5",
+    "apollo-link-http": "^1.5.4",
+    "apollo-upload-client": "^8.1.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "16.4.1",
+    "react-apollo": "^2.1.7",
+    "react-native": "0.56.0",
+    "react-native-elements": "1.0.0-beta5",
+    "react-native-vector-icons": "4.2.0",
+    "react-navigation": "latest"
+  },
+  "devDependencies": {
+    "@types/apollo-upload-client": "^8.1.0",
+    "@types/react": "16.4.1",
+    "@types/react-native": "0.56.0",
+    "@types/react-navigation": "latest",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.5.0",
+    "metro-bundler-config-yarn-workspaces": "^1.0.3",
+    "react-test-renderer": "16.4.1",
+    "react-native-typescript-transformer": "^1.2.9",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^4.0.0",
+    "tslint-react": "^3.0.0",
+    "tslint-config-airbnb": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
