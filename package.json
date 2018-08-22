@@ -11,6 +11,8 @@
       "**/react-native-vector-icons/**",
       "**/react-native",
       "**/react-native/**",
+      "**/react-native-maps",
+      "**/react-native-maps/**",
       "**/react-native-typescript-transformer",
       "**/react-native-typescript-transformer/**",
       "**/react-navigation",
