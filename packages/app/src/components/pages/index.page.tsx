@@ -4,6 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 const menuList = [
   { key: 'ac', text: 'ActivityIndicator' },
   { key: 'bu', text: 'Button' },
+  { key: 'mv', text: 'MapView' },
   { key: 'mo', text: 'Modal' },
   { key: 'pi', text: 'Picker' },
   { key: 'sc', text: 'ScrollView' },

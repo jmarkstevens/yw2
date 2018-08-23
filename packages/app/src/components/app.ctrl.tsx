@@ -5,6 +5,7 @@ import buttonPage from './pages/button.page';
 
 import indexPage from './pages/index.page';
 
+import mapPage from './pages/map.page';
 import modalPage from './pages/modal.page';
 import pickerPage from './pages/picker.page';
 import scrollviewPage from './pages/scrollview.page';
@@ -17,6 +18,7 @@ const appCtrl = createStackNavigator({
   ac: { screen: ActivityIndicatorPage },
   bu: { screen: buttonPage },
   mo: { screen: modalPage },
+  mv: { screen: mapPage },
   pi: { screen: pickerPage },
   sc: { screen: scrollviewPage },
   sl: { screen: sliderPage },
